@@ -4,7 +4,7 @@ This repository contains our implementation or research on
 *Sharp Decay, Far Field Expansion, and Optimal Tabulation of Screened Lattice Green's Functions*.
 It computes the lattice Green's function (LGF) `B_c(n, m)` of the five point screened Poisson operator
 ```
-$(L_c u)(n,m) = c^2 u(n,m) + alpha [2u(n,m) - u(n-1,m) - u(n+1,m)] + [2u(n,m) - u(n,m-1) - u(n,m+1)]$
+(L_c u)(n,m) = c^2 u(n,m) + alpha [2u(n,m) - u(n-1,m) - u(n+1,m)] + [2u(n,m) - u(n,m-1) - u(n,m+1)]
 ```
 on the lattice `Z^2`, with screening `c > 0` and anisotropy `alpha > 0`, and it reproduces results of our research.
 
